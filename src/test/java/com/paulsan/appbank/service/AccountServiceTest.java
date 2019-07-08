@@ -1,9 +1,9 @@
 package com.paulsan.appbank.service;
 
-import bo.com.mondongo.bankapp.dto.AccountSampleDto;
-import bo.com.mondongo.bankapp.entity.*;
-import bo.com.mondongo.bankapp.repository.AccountRepository;
-import bo.com.mondongo.bankapp.repository.MovementRepository;
+import com.paulsan.appbank.dto.AccountSampleDto;
+import com.paulsan.appbank.entity.*;
+import com.paulsan.appbank.repository.AccountRepository;
+import com.paulsan.appbank.repository.MovementRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.jupiter.api.AfterEach;

@@ -1,13 +1,14 @@
 package com.paulsan.appbank.controller;
 
-import bo.com.mondongo.bankapp.dto.AccountInsertDTO;
-import bo.com.mondongo.bankapp.dto.AccountSampleDto;
-import bo.com.mondongo.bankapp.dto.DTOModelMapper;
-import bo.com.mondongo.bankapp.entity.Account;
-import bo.com.mondongo.bankapp.entity.Currency;
-import bo.com.mondongo.bankapp.entity.Department;
-import bo.com.mondongo.bankapp.service.AccountService;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.paulsan.appbank.dto.AccountInsertDTO;
+import com.paulsan.appbank.dto.AccountSampleDto;
+import com.paulsan.appbank.dto.DTOModelMapper;
+import com.paulsan.appbank.entity.Account;
+import com.paulsan.appbank.entity.Currency;
+import com.paulsan.appbank.entity.Department;
+import com.paulsan.appbank.service.AccountService;
 import junit.framework.TestCase;
 import org.hamcrest.Matchers;
 import org.junit.After;
